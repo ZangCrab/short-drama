@@ -1,7 +1,5 @@
 # 微短剧剧本创作 Skill（项目内副本）
 
-本目录为 [short-drama](https://github.com/papinoyt15/short-drama) 技能包的本地拷贝，用于在 AI 助手中按流程完成 50–100 集微短剧剧本创作。
-
 ## 以谁为准
 
 - **命令、输出文件、自检格式、参考文档加载时机**：一律以本目录下的 **`SKILL.md`** 为准。
@@ -24,17 +22,6 @@ short-drama/
     ├── hook-design.md
     └── compliance-checklist.md
 ```
-
-## 创作产物放哪里（工作目录）
-
-`SKILL.md` 中的 `{项目目录}` 指**你选定用于放剧本与状态文件的那一个根目录**，建议在对话里先约定好其一：
-
-| 约定 | 说明 |
-|------|------|
-| **仓库根目录**（如 `ThreeDemons/`） | `creative-plan.md`、`.drama-state.json`、`episodes/` 等与 Flutter 代码并列；适合「本仓库就是剧本项目」。 |
-| **`short-drama/` 子目录** | 上述文件全部生成在 `short-drama/` 下；适合「剧本与代码隔离」。 |
-
-选定后，让助手始终在同一目录读写，避免状态与分集文件分散两处。
 
 ## 命令流程（速查）
 
@@ -59,21 +46,6 @@ short-drama/
 | villain-design.md | `/角色开发` |
 | hook-design.md | `/分集` |
 | compliance-checklist.md | `/合规` |
-
-## 在 Cursor 中怎么用
-
-1. 仓库已配置 **项目规则**：`.cursor/rules/short-drama-screenplay.mdc`。在编辑剧本相关路径（如 `short-drama/`、`episodes/`、`creative-plan.md` 等）或用户明确发出微短剧指令时，助手应 **自动** 按该规则与 `SKILL.md` 执行。
-2. 需要显式强调时，在对话里 **@** `short-drama/SKILL.md` 或写明「按微短剧规则执行」。
-3. 执行到某一步时，助手须 **`read_file`** 加载 `references/` 下该步要求的 md，再生成内容（与 `SKILL.md` 一致）。
-
-## Cursor 项目规则（强制执行摘要）
-
-| 文件 | 职责 |
-|------|------|
-| `.cursor/rules/short-drama-screenplay.mdc` | SKILL 流程、references 加载、目录/单集硬性指标 |
-| `.cursor/rules/three-demons-drama-bible.mdc` | 《三妖西行记》世界观、角色、坐骑规则、合规、协作与路径 |
-
-**细则模板仍以 `SKILL.md` 为准**；本剧额外设定以 **圣经** 为准，二者须同时遵守。
 
 ## 许可
 
