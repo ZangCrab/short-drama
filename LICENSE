@@ -1,0 +1,84 @@
+MIT License
+
+Copyright (c) 2025 0xsline
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+新会话：
+
+工作区：E:\AI\Azer工作区\剧本系统\
+
+目录下放置了ThreeDemons，这个是真正的【三妖西行记】的项目目录，请你记住，我下面进行一下项目结构的讲解：
+
+1、以下是根目录的5个文件，请你优先阅读，按以下列出的顺序，这是项目的大概说明和进度，还有人物和剧本的一些核心思想，请你优先了解。
+.drama-state.json
+STATUS.md
+episode-directory.md
+creative-plan.md
+characters.md
+
+2、short-drama目录，是短剧制作的SKILL，你可以完整的学习一下，目前的剧本是依赖这个SKILL书写的，包括质检，可能不是完全依赖，但也进行了很大程度的参考。看完根目录的5个文件后，看这个。
+
+3、.cursor目录，是cursor工具的规范文档，short-drama-screenplay.mdc文件好像是对short-drama技能的一些说明与规范要求，包括写作要求，应该没大问题，请你确认一下。看完short-drama目录后，看这个。
+
+4、episodes目录，放置1 ~ 20集的剧本，还有规则交接文档：style-guide.md，1 ~ 20集的横向评分文件：横向对比报告.md，这些内容都可信，都是最终版本，若他们之间有不一致的，或与其他文件有冲突，请以真正的剧本内容为准。
+
+5、style-guide.md，阅读完.cursor目录后，看这个，这里面是上一个会话整理的规范文件，给你交接使用，必须认真阅读。
+
+6、阅读完style-guide.md文件后，请阅读1~20集剧本的要求，按照剧本顺序阅读，例如：先阅读第1集剧本，每一集必须按照【剧本→复盘→爽点】进行完整阅读，然后阅读下一集（第2集）。
+
+7、阅读完【1~20集剧本、复盘、爽点】后，请阅读横向对比报告.md，了解目前剧本的得分情况
+
+8、其他的文件好像与剧本无关，你可以确认一下，有问题随时问我。
+
+9、我强调：episodes目录中的剧本、规范、评分，都是最新的，若其他文件中的内容与他们有出入，以episodes目录中的剧本、规范、评分为准。如果发现剧本、复盘、爽点里面有不一致的地方，以剧本为准，同时请提出来
+
+10、强调文件阅读顺序：
+.drama-state.json
+STATUS.md
+episode-directory.md
+creative-plan.md
+characters.md
+short-drama目录
+.cursor目录
+style-guide.md
+1~20集剧本，按剧本顺序，每一集都要按【剧本→复盘→爽点】进行完整阅读，然后阅读下一集
+横向对比报告.md
+按你自己的方式对项目进行完整阅读或回顾，其他的文件好像与剧本无关，你可以确认一下，有问题随时问我。
+
+11、简单说任何文件与剧本不一致，都以剧本为准，同时提出来。可信度优先级【剧本→复盘→爽点→style-guide.md→横向对比报告→其他】
+
+12、最后，请你对ThreeDemons项目进行完整的阅读，用你自己的方式，了解我目前的项目情况，了解1~20集的剧本内容，了解我的规范和要求，了解目前剧本的评分标准，了解我的喜剧风格（当然不完全是喜剧）
+
+13、全部完成后，你可以总结一下你的真实感受，无论是对剧本内容、还是对我的喜剧风格，都可以的。
+
+
+备注：
+
+请忽略之前关于第X集的所有内容，以我即将发送的内容/文件为准
+
+请你对第X集最终版本严格质检，请你按SKILL的要求进行剧本全文的严格质检，同时按style-guide.md严格执行，检查重点：动作分拍、衔接、节拍、执行卡、短剪备稿、术语统一，但不仅限于此。文案方面，例如：措辞、流畅度、语法、语病，请你帮我检查是否还有优化的空间，然后请你给出建议，多提宝贵建议，本集爽点、时长是否需要更新，动作是否符合AI视频生成，一定要仔细认真的评估。制作执行卡需要根据内容更新，时长应该按内容进行重新评估，请你注意这些细节。
+
+台词文本方面是否还有可优化空间，不流畅、有语病、啰嗦的、标点错误的，是否还有吗
+
+最终的剧本请你认真检查，连续大段对话之间是否缺少动作衔接，是否达到AI生成视频的标准，不符合请改写
+
+现在是内容核对阶段，请只关注台词和逻辑，不要提动作、格式等。
+
+请给出第1-17集横向对比报告（完整定稿版），细节不允许略，保证可以备份
